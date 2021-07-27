@@ -58,13 +58,17 @@ export const Controller = styled.div`
     backdrop-filter: blur(5px);
     opacity: 0;
     width: 100%;
-    height: 10%;
+    height: 3em;
     padding:0 1em;
     font-weight: bold;
 
     div{
         width: 50%;
         font-size: 1.5em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* height: 3em; */
         label{
             margin-left:.5em;
         }
