@@ -82,7 +82,7 @@ export const Btn = styled.div`
     justify-content: center;
     align-items: center;
     width:25%;
-    height:10%;
+    height:2em;
     background-color: orange;
     opacity: 0;
     border-radius: .5em;
