@@ -30,7 +30,7 @@ const Left = ( ) => {
                     <div className="logo"><i class="fad fa-map-marker-alt"></i></div>
                     <div className="City">Bengaluru</div>
                 </Location>
-                <BarLeftRIght className="PopUp">
+                <BarLeftRIght temp={db.temp} className="PopUp">
                     <p onClick={db.changeTemp("C")}>&#8451;</p>
                     <p onClick={db.changeTemp("F")}>&#8457;</p>
                     <p>KB</p>
