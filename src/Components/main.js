@@ -32,11 +32,11 @@ const Main = () => {
 
 
     const changeTme = (theme) => () => {
-        
+        clickedacc();
         if(theme!=db.theme){
             db.changeTheme(theme);
             let tl = gsap.timeline();
-            clickedacc();
+            
             
             if(theme==="Light"){
                 gsap.to(main,{duration:.2,backgroundColor:"rgb(214,215,219)"});
